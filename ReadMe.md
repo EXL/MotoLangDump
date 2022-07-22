@@ -1,5 +1,5 @@
-MotoLangDump
-============
+Moto Lang Dump
+==============
 
 An utility to extract stock string translations from MotoMAGX and EZX phones.
 
@@ -41,6 +41,4 @@ The first step is to unpack the strings from the entire firmware:
 
 4. Take the "Strings_Table.txt" file from the current directory.
 
-*Note:* The language of the translated strings in the table will depend on the installed language in the firmware and the selected language in the phone settings.
-
-*Note:* Strings on the MotoEZX phones are stored differently, so there are few of them.
+*Note:* The language of the translated strings in the table will depend on the installed language in the firmware and the selected language in the phone settings. Strings on the MotoEZX phones are stored differently, so there are few of them.
