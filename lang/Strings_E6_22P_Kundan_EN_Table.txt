@@ -1,0 +1,26 @@
+     1   |||   TXT_RID_CBUTTON_CANCEL                                                                                                             |||   Cancel
+     2   |||   TXT_RID_CBUTTON_DONE                                                                                                               |||   Done
+     3   |||   TXT_RID_CBUTTON_OK                                                                                                                 |||   OK
+     4   |||   TXT_RID_CBUTTON_SAVE                                                                                                               |||   Save
+     5   |||   TXT_RID_CONTENT_ICON_MEMORY_FULL                                                                                                   |||   Phone memory is full. Please delete files or move files to the memory card.
+     6   |||   TXT_RID_CONTENT_ICON_OPERATION_FAILED                                                                                              |||   Operation Failed
+     7   |||   TXT_RID_CONTENT_ICON_PHONE_MEMORY_IS_FULL                                                                                          |||   Phone memory is full. Please delete SMS, emails, contacts or calendar items.
+     8   |||   TXT_RID_D1BUTTON_CANCEL                                                                                                            |||   Cancel
+     9   |||   TXT_RID_D1BUTTON_OK                                                                                                                |||   OK
+    10   |||   TXT_RID_D2BUTTON_CANCEL                                                                                                            |||   Cancel
+    11   |||   TXT_RID_D2BUTTON_NO                                                                                                                |||   No
+    12   |||   TXT_RID_D2BUTTON_OK                                                                                                                |||   OK
+    13   |||   TXT_RID_D2BUTTON_YES                                                                                                               |||   Yes
+    14   |||   TXT_RID_D3BUTTON_OK                                                                                                                |||   OK
+    15   |||   TXT_RID_MENU_CLEAR                                                                                                                 |||   Clear
+    16   |||   TXT_RID_MENU_COPY                                                                                                                  |||   Copy
+    17   |||   TXT_RID_MENU_CUT                                                                                                                   |||   Cut
+    18   |||   TXT_RID_MENU_DELETE                                                                                                                |||   Delete
+    19   |||   TXT_RID_MENU_EDIT                                                                                                                  |||   Edit
+    20   |||   TXT_RID_MENU_PASTE                                                                                                                 |||   Paste
+    21   |||   TXT_RID_MENU_REDO                                                                                                                  |||   Redo
+    22   |||   TXT_RID_MENU_SAVE                                                                                                                  |||   Save
+    23   |||   TXT_RID_MENU_SELECT_ALL                                                                                                            |||   Select All
+    24   |||   TXT_RID_MENU_SETUP                                                                                                                 |||   Setup
+    25   |||   TXT_RID_MENU_SHARE                                                                                                                 |||   Share
+    26   |||   TXT_RID_MENU_UNDO                                                                                                                  |||   Undo
