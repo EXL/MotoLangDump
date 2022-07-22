@@ -10,7 +10,7 @@ ARMLIB      := $(TOOLPREFIX)/crosstool/arm-linux-gnu/lib
 
 ####### Default Platform
 QTDIR       := $(TOOLPREFIX)/a1200/qt2
-EZXDIR      := $(TOOLPREFIX)/a120/ezx2
+EZXDIR      := $(TOOLPREFIX)/a1200/ezx2
 LINKLIB     := -lezxappbase -lqte-mt
 TARGET       = $(APPNAME)
 
@@ -22,7 +22,7 @@ STRIP        = $(TOOLPREFIX)/crosstool/bin/arm-linux-gnu-strip
 INCPATH      = -I. -I$(QTDIR)/include -I$(EZXDIR)/include -I$(TOOLPREFIX)/crosstool/arm-linux-gnu/include
 CFLAGS       = -pipe -Wall -W -O2 -DNO_DEBUG $(INCPATH)
 CXXFLAGS     = -pipe -DQWS -fno-exceptions -fno-rtti -Wall -W -O2 -DNO_DEBUG $(INCPATH)
-LDLAGS       = -Wl,-rpath-link,$(EZXDIR)/lib
+LDLAGS       = -Wl,-rpath-link,$(QTDIR)/lib,-rpath-link,$(EZXDIR)/lib
 LIBS         = -L$(EZXDIR)/lib -L$(ARMLIB) -L$(QTDIR)/lib $(LINKLIB)
 
 ####### Files

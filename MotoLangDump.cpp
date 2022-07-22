@@ -1,6 +1,6 @@
 /*
  * About:
- *   The "MotoLangDump" utility designed to extract stock strings from MotoMAGX and EZX langpacks.
+ *   The "MotoLangDump" utility designed to extract stock string translations from MotoMAGX and EZX phones.
  *
  * Author:
  *   EXL
@@ -35,7 +35,7 @@
 
 #define IDX_STRING_MAX_LENGTH  6
 #define KEY_STRING_MAX_LENGTH  128
-#define OUT_FILENAME           "Strings_Translated.txt"
+#define OUT_FILENAME           "Strings_Table.txt"
 
 QString arrange_string(const QString &str, bool digit) {
 	QString spaces;
