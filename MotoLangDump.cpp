@@ -49,7 +49,7 @@ int main(int argc, char *argv[]) {
 
 	const char *exe_filename = argv[0];
 	if (argc != 2) {
-		fprintf(stderr, "Usage:\n\t%s TXT_DATABASE_FILE.txt\n", exe_filename);
+		fprintf(stderr, "Usage:\n\t%s " OUT_FILENAME "\n", exe_filename);
 		return 1;
 	}
 
