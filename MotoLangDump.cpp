@@ -14,7 +14,7 @@
  *   20-Jul-2022: First draft version.
  *
  * Host commmands:
- *   $ find fw_rootfs/ -type f -exec strings {} \; | grep -e "^TXT" | uniq | sed -e "s/,.*$//" > Strings.txt
+ *   $ find fw_rootfs/ -type f -exec strings {} \; | grep -e "^TXT" | sort | uniq | sed -e "s/,.*$//" > Strings.txt
  *
  * Phone commmands:
  *   $ . /etc/initservices/services/ezxenv.sh   # MotoMAGX
@@ -35,6 +35,7 @@
 
 #define IDX_STRING_MAX_LENGTH  6
 #define KEY_STRING_MAX_LENGTH  128
+#define IN_FILENAME            "Strings.txt"
 #define OUT_FILENAME           "Strings_Table.txt"
 
 QString arrange_string(const QString &str, bool digit) {
@@ -49,7 +50,7 @@ int main(int argc, char *argv[]) {
 
 	const char *exe_filename = argv[0];
 	if (argc != 2) {
-		fprintf(stderr, "Usage:\n\t%s " OUT_FILENAME "\n", exe_filename);
+		fprintf(stderr, "Usage:\n\t%s " IN_FILENAME "\n", exe_filename);
 		return 1;
 	}
 

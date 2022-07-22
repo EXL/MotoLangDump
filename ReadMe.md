@@ -18,7 +18,7 @@ The first step is to unpack the strings from the entire firmware:
 5. Use the following command to collect using strings from the firmware:
 
 	```bash
-	find fw_rootfs/ -type f -exec strings {} \; | grep -e "^TXT" | uniq | sed -e "s/,.*$//" > Strings.txt
+	find fw_rootfs/ -type f -exec strings {} \; | grep -e "^TXT" | sort | uniq | sed -e "s/,.*$//" > Strings.txt
 	```
 
 ## Translate Strings (on Phone)
