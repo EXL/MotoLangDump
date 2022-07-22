@@ -7,7 +7,7 @@ An utility to extract stock string translations from MotoMAGX and EZX phones.
 
 The first step is to unpack the strings from the entire firmware:
 
-1. Disassemble the SBF firmware file to the SMG code groups using SBF Tool or SBF-Recalc programms.
+1. Disassemble the SBF firmware file to the SMG code groups using SBF Tool or SBF-Recalc programs.
 2. Unpack or mount required SMG files to get a full rootfs image of the firmware.
 3. Use the [Code Groups] article to understand which SMG will need to be unpacked or mounted.
 
